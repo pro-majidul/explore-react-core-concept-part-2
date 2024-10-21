@@ -3,6 +3,7 @@ import './App.css'
 import UseState from './useState'
 import Students from './student'
 import Friends from './friends'
+import Posts from '../Posts'
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
       <button onClick={function handelSecond(){alert('hellow second')}}>Second</button>
       <button onClick={()=>{alert('hello third btn')}}>Third</button>
       <button onClick={()=>handerFourth(56)}>Fourth</button>
-
+    <Posts></Posts>
     </>
   )
 }
